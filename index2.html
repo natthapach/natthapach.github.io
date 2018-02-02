@@ -1,0 +1,25 @@
+
+<html>
+<head>
+	<title></title>
+</head>
+<body>
+	<div class="output-get"></div>
+	<script src="jquery-3.3.1.min.js"></script>
+	<script type="application/javascript">
+		$(document).ready(function(){
+			var url = 'https://script.google.com/a/ku.th/macros/s/AKfycbygBzG0O8e2AjEmR_DH1Gib3u0xkxHsAXUBLqblVOw8/dev';
+			$.ajax({
+				method: 'GET',
+				crossDomain: true,
+				dataType: 'jsonp',
+				url: url,
+				success: function (data){
+					console.log(data);
+					// $('.output-get').html(JSON.stringify(data));
+				}
+			});
+		});
+	</script>
+</body>
+</html>

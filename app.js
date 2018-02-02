@@ -123,7 +123,8 @@ function updateScore(){
 	$("#score").text(score);
 }
 function updateTimer() {
-	$("#timer").text(s);
+	$("#timer").text(10-s);
+	$("#timer-bar").width((s*100/t + 0.001) + "%");
 }
 function hideHome(){
 	$("#home").hide();

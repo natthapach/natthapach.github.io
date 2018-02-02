@@ -4,26 +4,47 @@
 	<meta charset="utf-8">
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
 	<title></title>
+	<style type="text/css">
+		body{
+			background-image: url("bg.jpg");
+			background-repeat: no-repeat;
+			background-size: cover;
+			height:100%; 
+		}
+		html{
+		    min-height:100%;/* make sure it is at least as tall as the viewport */
+		    position:relative;
+		}
+	</style>
 </head>
 <body>
-	<div class="container" >
+	<div class="container" style="background: rgba(255, 255, 255, 0.8);height: 100%;margin-top: 40px; margin-bottom: 40px;">
 		<div id="home">
 			<div class="row">
-				<div class="col-12">
+				<div class="col-12 circle" align="center">
+					<h1>KU Quiz</h1>
+				</div>
+				
+			</div>
+			<div class="row">
+				<div class="col-12" align="center">
 					Select number of question
 				</div>		
-				<div class="col-sm-12 col-md-6">
+				<div class="col-12" align="center" style="padding: 10px;">
 					<button class="btn btn-primary" id="10q-btn">10 Questions</button>
 				</div>		
-				<div class="col-sm-12 col-md-6">
+				<div class="col-12" align="center" style="padding: 10px;">
 					<button class="btn btn-primary" id="20q-btn">20 Questions</button>
 				</div>
 			</div>
 		</div>
 		<div id="question">
 			<div class="row">
-				<div class="col-12">
-					<h4 id="timer">0</h4>
+				<div class="col-12" align="center">
+					<h1 id="timer">0</h1>
+				</div>
+				<div id="timer-bar" style="background: #5f5;height: 10px">
+					
 				</div>
 				<div class="col-12">
 					<h4 id="question-text">xxx</h4>
@@ -31,20 +52,20 @@
 				<div class="col-12" align="center">
 					<img src="" id="question-img">
 				</div>
-				<div class="col-sm-12 col-md-6">
-					<button class="btn" id="ans-1" style="width: 100%; height: 100%;"></button>
+				<div class="col-sm-12 col-md-6" style="padding: 10px">
+					<button class="btn" id="ans-1" style="background:red; width: 100%; height: 100%;"></button>
 				</div>
-				<div class="col-sm-12 col-md-6">
-					<button class="btn" id="ans-2" style="width: 100%; height: 100%""></button>
+				<div class="col-sm-12 col-md-6" style="padding: 10px">
+					<button class="btn" id="ans-2" style="background:blue; width: 100%; height: 100%""></button>
 				</div>
-				<div class="col-sm-12 col-md-6">
-					<button class="btn" id="ans-3" style="width: 100%; height: 100%"></button>
+				<div class="col-sm-12 col-md-6" style="padding: 10px">
+					<button class="btn" id="ans-3" style="background:green;width: 100%; height: 100%"></button>
 				</div>
-				<div class="col-sm-12 col-md-6">
-					<button class="btn" id="ans-4" style="width: 100%; height: 100%"></button>
+				<div class="col-sm-12 col-md-6" style="padding: 10px">
+					<button class="btn" id="ans-4" style="background:yellow;width: 100%; height: 100%"></button>
 				</div>
 				<div class="col-12" align="center">
-					<h3 id="score">0</h3>
+					<h3>Score : <span id="score">0</span></h3>
 				</div>
 			</div>
 		</div>
@@ -55,6 +76,9 @@
 					<button class="btn btn-primary" id="back-to-home">Back To Home</button>
 				</div>
 			</div>
+		</div>
+		<div class="row" style="height: 100%">
+			&nbsp;
 		</div>
 	</div>
 
