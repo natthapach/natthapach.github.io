@@ -73,14 +73,14 @@ function startGame(k){
 
 	nextQuestion();
 	timer = setInterval(function(){
-		s++;
+		s = s+0.1;
 		if (s>=t) {
 			s=0;
 			nextQuestion();
 		}
 		updateTimer();
 		
-	}, 1000);
+	}, 100);
 }
 
 function onSelectChoice(j){
@@ -123,8 +123,8 @@ function updateScore(){
 	$("#score").text(score);
 }
 function updateTimer() {
-	$("#timer").text(10-s);
-	$("#timer-bar").width((s*100/t + 0.001) + "%");
+	$("#timer").text((10-s).toFixed(1));
+	$("#timer-bar").width((s*100/t + 0.01) + "%");
 }
 function hideHome(){
 	$("#home").hide();

@@ -9,14 +9,16 @@
 	<script type="application/javascript">
 		$(document).ready(function(){
 			var url = 'https://script.google.com/a/ku.th/macros/s/AKfycbygBzG0O8e2AjEmR_DH1Gib3u0xkxHsAXUBLqblVOw8/dev';
+			var url2 = "https://script.google.com/a/ku.th/macros/s/AKfycbxHYzP8LF-lyllTG5p3WAJtUkgEdfQdheH-8wDAEce_QLM7Jwu0/exec"
 			$.ajax({
-				method: 'GET',
+				method: 'POST',
 				crossDomain: true,
-				dataType: 'jsonp',
+				dataType: 'text',
+				contentType: undefined,
 				url: url,
 				success: function (data){
 					console.log(data);
-					// $('.output-get').html(JSON.stringify(data));
+					$('.output-get').html(JSON.stringify(data));
 				}
 			});
 		});
