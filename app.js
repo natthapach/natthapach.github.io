@@ -73,22 +73,38 @@ function startGame(k){
 
 	nextQuestion();
 	timer = setInterval(function(){
-		s = s+0.1;
+		s = s+0.01;
 		if (s>=t) {
 			s=0;
 			nextQuestion();
+			blinkText("#score", "#f00", "#000", 3, 200);
 		}
 		updateTimer();
 		
-	}, 100);
+	}, 10);
 }
 
 function onSelectChoice(j){
 	if (j == current_question.ans) {
 		score++;
 		updateScore();
+		blinkText("#score", "#00f", "#000", 3, 200);
+	}else{
+		blinkText("#score", "#f00", "#000", 3, 200);
 	}
 	nextQuestion();
+}
+function blinkText(id, color, defaultColor, n, time){
+	console.log("color-n", color, n);
+	$(id).css("color", color);
+	setTimeout(function(){
+		$(id).css("color", defaultColor);
+		if (n>0) {
+			setTimeout(function(){
+				blinkText(id, color,  defaultColor, n-1, time);			
+			}, time);
+		}
+	}, time)
 }
 
 function nextQuestion(){
@@ -110,6 +126,15 @@ function endGame(){
 	hideQuestion();
 	showResult();
 	$("#score-result").text(score + "/" + n);
+	let text;
+	if (score/n <= 0.3) {
+		text = "กากเว่อร์ เคยรู้ไรบ้างเนี่ย"
+	}else if (score/n <= 0.6) {
+		text = "ก็พอมีความรู้บ้างนะ"
+	}else{
+		text = "สุดยอด! คุณคือเด็กเกษตรตัวจริง"
+	}
+	$("#text-result").text(text);
 }
 function updateQuestion(){
 	$("#question-text").text(i+". "+current_question.question);
@@ -125,6 +150,7 @@ function updateScore(){
 function updateTimer() {
 	$("#timer").text((10-s).toFixed(1));
 	$("#timer-bar").width((s*100/t + 0.01) + "%");
+	// $("#timer-bar").attr('aria-valuenow', (s*100/t + 0.01));
 }
 function hideHome(){
 	$("#home").hide();

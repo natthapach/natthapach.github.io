@@ -15,6 +15,25 @@
 		    min-height:100%;/* make sure it is at least as tall as the viewport */
 		    position:relative;
 		}
+		.btn-choice{
+			width: 100%;
+			height: 100%;
+			color: white;
+		}
+		.progress .bar {
+		    -webkit-transition: none;
+		    -moz-transition: none;
+		    -ms-transition: none;
+		    -o-transition: none;
+		    transition: none;
+		}​
+		.notransition {
+		  -webkit-transition: none !important;
+		  -moz-transition: none !important;
+		  -o-transition: none !important;
+		  -ms-transition: none !important;
+		  transition: none !important;
+		}
 	</style>
 </head>
 <body>
@@ -43,26 +62,31 @@
 				<div class="col-12" align="center">
 					<h1 id="timer">0</h1>
 				</div>
-				<div id="timer-bar" style="background: #5f5;height: 10px">
+				<div class="progess-bar-striped" id="timer-bar" style="background: #4CAF50;height: 10px; display: inline;">
 					
 				</div>
+				<!-- <div class="progress" style="width: 100%">
+				  <div class="progress-bar progress-bar-striped" id="timer-bar" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100" style="width: 0%">
+				  	&nbsp;
+				  </div>
+				</div> -->
 				<div class="col-12">
 					<h4 id="question-text">xxx</h4>
 				</div>
 				<div class="col-12" align="center">
-					<img src="" id="question-img">
+					<img src="" id="question-img" min-height="300px" height="300px">
 				</div>
 				<div class="col-sm-12 col-md-6" style="padding: 10px">
-					<button class="btn" id="ans-1" style="background:red; width: 100%; height: 100%;"></button>
+					<button class="btn btn-choice" id="ans-1" style="background:#F44336"></button>
 				</div>
 				<div class="col-sm-12 col-md-6" style="padding: 10px">
-					<button class="btn" id="ans-2" style="background:blue; width: 100%; height: 100%""></button>
+					<button class="btn btn-choice" id="ans-2" style="background:#2196F3;""></button>
 				</div>
 				<div class="col-sm-12 col-md-6" style="padding: 10px">
-					<button class="btn" id="ans-3" style="background:green;width: 100%; height: 100%"></button>
+					<button class="btn btn-choice" id="ans-3" style="background:#4CAF50;"></button>
 				</div>
 				<div class="col-sm-12 col-md-6" style="padding: 10px">
-					<button class="btn" id="ans-4" style="background:yellow;width: 100%; height: 100%"></button>
+					<button class="btn btn-choice" id="ans-4" style="background:#673AB7;"></button>
 				</div>
 				<div class="col-12" align="center">
 					<h3>Score : <span id="score">0</span></h3>
@@ -70,9 +94,13 @@
 			</div>
 		</div>
 		<div id="result">
-			<div class="row">
+			<div class="row" style="padding: 10px">
+				<div class="col-12" align="center">
+					<img src="http://www.kubim.bus.ku.ac.th/wp-content/uploads/2017/05/1367410241-DSC7668697-o.jpg" height="300px">
+				</div>
 				<div class="col-12" align="center">
 					<h3 id="score-result">0</h3>
+					<h4 id="text-result"></h4>
 					<button class="btn btn-primary" id="back-to-home">Back To Home</button>
 				</div>
 			</div>

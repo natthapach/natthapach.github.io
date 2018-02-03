@@ -23,7 +23,7 @@
 	},
 	{
 		"question":"ที่ตั้งมหาวิทยาลัยเกษตรศาสตร์ วิทยาเขตบางเขน คือ?",
-		"img":"",
+		"img":"http://www.sci.ku.ac.th:8000/sisc/olympic/images/stories/KU_Map_LH",
 		"choice":[
 			"50 ถนนงามวงศ์วาน แขวงจตุจักร",
 			"50 ถนนงามวงศ์วาน แขวงลาดยาว",
@@ -34,7 +34,7 @@
 	},
 	{
 		"question":"วันสถาปนามหาวิทยาลัยเกษตรศาสตร์ คือ?",
-		"img":"",
+		"img":"http://pr.ku.ac.th/pr_pic/image/frist%20img/02february/DSC_1051.JPG",
 		"choice":[
 			"2 มีนาคม 2486",
 			"2 กุมภาพันธ์ 2486",
@@ -45,7 +45,7 @@
 	},
 	{
 		"question":"ข้อใดไม่ใช่ 4 คณะแรกก่อตั้งของมหาวิทยาลัยเกษตรศาสตร์?",
-		"img":"",
+		"img":"https://upload.wikimedia.org/wikipedia/th/thumb/7/7a/%E0%B8%AB%E0%B8%AD%E0%B8%9B%E0%B8%A3%E0%B8%B0%E0%B8%8A%E0%B8%B8%E0%B8%A1%E0%B9%83%E0%B8%AB%E0%B8%8D%E0%B9%88%E0%B8%A1%E0%B8%AB%E0%B8%B2%E0%B8%A7%E0%B8%B4%E0%B8%97%E0%B8%A2%E0%B8%B2%E0%B8%A5%E0%B8%B1%E0%B8%A2%E0%B9%80%E0%B8%81%E0%B8%A9%E0%B8%95%E0%B8%A3%E0%B8%A8%E0%B8%B2%E0%B8%AA%E0%B8%95%E0%B8%A3%E0%B9%8C2.jpg/200px-%E0%B8%AB%E0%B8%AD%E0%B8%9B%E0%B8%A3%E0%B8%B0%E0%B8%8A%E0%B8%B8%E0%B8%A1%E0%B9%83%E0%B8%AB%E0%B8%8D%E0%B9%88%E0%B8%A1%E0%B8%AB%E0%B8%B2%E0%B8%A7%E0%B8%B4%E0%B8%97%E0%B8%A2%E0%B8%B2%E0%B8%A5%E0%B8%B1%E0%B8%A2%E0%B9%80%E0%B8%81%E0%B8%A9%E0%B8%95%E0%B8%A3%E0%B8%A8%E0%B8%B2%E0%B8%AA%E0%B8%95%E0%B8%A3%E0%B9%8C2.jpg",
 		"choice":[
 			"คณะเกษตร",
 			"คณะวนศาสตร์",
@@ -56,7 +56,7 @@
 	},
 	{
 		"question":"ข้อใดคือต้นไม้ประจำมหาวิทยาลัยเกษตรศาสตร์",
-		"img":"",
+		"img":"http://kps.ku.ac.th/v7/images/PR_KPS/nontri1_3.jpg",
 		"choice":[
 			"Pelthoporum Pterophonum",
 			"Petherloporum Pterosonum",
@@ -67,7 +67,7 @@
 	},
 	{
 		"question":"สีประจำมหาวิทยาลัยเกษตร์ คือ?",
-		"img":"",
+		"img":"data:image/jpeg;base64,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",
 		"choice":[
 			"สีเขียวใบชา",
 			"สีเขียวใบไม้",
@@ -78,7 +78,7 @@
 	},
 	{
 		"question":"สีประจำคณะวิทยาศาสตร์ มหาวิทยาลัยเกษตรศาสตร์",
-		"img":"",
+		"img":"data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wCEAAkGBw0ICAcHBwcHBwcHBw0HBwcHBw8ICQcNFREWFhURExUYHSggGBolGxMVITEhJSkrLjouFx8zODMtNygtLisBCgoKDQ0NDg0NDjcZFRkrKy0rKy0rKysrKys3Kzc3NystKysrKysrLSsrKysrLSsrKystKystKystLSstKysrK//AABEIALcBEwMBIgACEQEDEQH/xAAZAAEBAQEBAQAAAAAAAAAAAAABAAIEAwb/xAAYEAEBAQEBAAAAAAAAAAAAAAAAARECEv/EABkBAQEBAQEBAAAAAAAAAAAAAAABAgMGBf/EABcRAQEBAQAAAAAAAAAAAAAAAAABERL/2gAMAwEAAhEDEQA/APjeI9IzzG492+RTDBGoMmERoFGoI1EQxqMxqDLRBRGubhZjcESSDUQUNTUBDSEg1GhBqSCmhJBqrLVZqmgKhTQx1GxRZXh5LaG+nHGozGorVMajMaGWoWY1EQwwQiNRqMwxErTUZjUGWoWYYgSiIkigiEBQIqCSiSQBJKCimigzWa1WVADQqhJKOKNRmFHatRqMxqDJajMaiIYYIYI01GY1EQkQjLUIhQMLJEaQSBIQFAgkgoikCWEWis1mtVmqCsmiqBJKoSSjhhEMR2rUMZjQy1DBDBGo1GTERqNRmNRGWoWSI1FAUQkICQUEQlClqBIEEtCUOi0AFQgohSACQVUkFVxQxmNDtTGoyYMtwxmNREajUYjURGo1GYYjLRjLUEJCRGkCBQIIhASCIEQKgUoEQDNBoUCQqqqEBUElHFDAYO1aMZjUGTGozGoI1GozGmUahZhgjREKMmEEQpJApICQQRCApCiJIKpFQoChUKIVCqqBCqEgDjMZI7VoxlqDLUMZjUEajUYjURGo1GI1ERqNMRqIjRZMEJjJgjSEKBSQFAiJJAgaFVM1qs1QAhQUECig1lVSSFccQI60kQjLUMEMEahjLURGoWYRGo1GI1EGiyYjLRCEJCBpaEITrJAoIUlnUBrNaZqjIaCjNDQoorJSqEkDihCV1rRBELTJiI1CzGoI0WSiNFkg0YyYiNljTqI0WSIUEBOskDqCAqBKNazVaLQVCCiVCVUydAqQKq4kEOtaLJlGWiCI0YyURoswg0WSiNQswiNFkoNHWSIUEISygaTJ0DpZQHRRaNUSCVUEBUlQqosoHImea0OtJjJgy1CyQahZMEaLJRGizpEaMZINFk6iNFkiFBAUEBIQhQ1AqEFUhAVBJRBCixamNSq4+K9IEkdK0YEMtFIEUhCUhCZQga0pIhKQi1pIEkkEQhCklEkgSSALEhRYElUMdVIajztSSNP/2Q==",
 		"choice":[
 			"สีคราม",
 			"สีฟ้าน้ำทะเล",
@@ -89,7 +89,7 @@
 	},
 	{
 		"question":"สัตว์ประจำมหาวิทยาลัยเกษตรศาสตร์",
-		"img":"",
+		"img":"https://upload.wikimedia.org/wikipedia/commons/thumb/e/e1/Rhode_Island_Red_Rooster.JPG/1024px-Rhode_Island_Red_Rooster.JPG",
 		"choice":[
 			"ไก่แจ้ตัวผู้พันธุ์เรดไอรอนโรส",
 			"ไก่แจ้ตัวเมียพันธุ์เรดไอรอนโรส",
@@ -100,7 +100,7 @@
 	},
 	{
 		"question":"สัญลักษณ์ประจำมหาวิทยาลัยเกษตรศาสตร์",
-		"img":"",
+		"img":"http://www.godan.info/sites/default/files/logos/university_of_kasetsart_076b1883ba3afc4659aad2973c628bb7_0.gif",
 		"choice":[
 			"พระพิรุณ",
 			"พญานาค",
@@ -111,7 +111,7 @@
 	},
 	{
 		"question":"ข้อใดไม่ใช่วิทยาเขตของมหาวิทยาลัยเกษตรศาสตร์",
-		"img":"",
+		"img":"https://f.ptcdn.info/979/047/000/oibfv5l7tCH1rI4Myrl-o.jpg",
 		"choice":[
 			"วิทยาเขตกำแพงแสน",
 			"วิทยาเขตศรีราชา",
@@ -122,7 +122,7 @@
 	},
 	{
 		"question":"ข้อใดอธิบายตัวย่อจากคำว่า SOTUS ผิด",
-		"img":"",
+		"img":"https://pm1.narvii.com/6672/1727bd48b4217114297a2d6eeeaa15092b9ec211_hq.jpg",
 		"choice":[
 			"S Seniority",
 			"O Ordinary",
@@ -133,7 +133,7 @@
 	},
 	{
 		"question":"ข้อใดอธิบายตัวย่อจากคำว่า AGGIE ผิด",
-		"img":"",
+		"img":"http://www.usaggiefoods.com/wp-content/uploads/2013/04/aggie-logo.png",
 		"choice":[
 			"A Agility",
 			"G Genius",
@@ -144,7 +144,7 @@
 	},
 	{
 		"question":"ข้อใดไม่ใช่ผู้ก่อตั้งมหาวิทยาลัยเกษตรศาสตร์",
-		"img":"",
+		"img":"http://www.ku.ac.th/tour/kuplace1.gif",
 		"choice":[
 			"ช่วง โลจายะ",
 			"ทองดี เรศานนท์",
@@ -155,7 +155,7 @@
 	},
 	{
 		"question":"คณะไหนที่ถนนชูชาติ กำภู ไม่ได้ผ่าน",
-		"img":"",
+		"img":"http://www.vehicle.ku.ac.th/ku_carmap/oneway_chu.jpg",
 		"choice":[
 			"คณะวิทยาศาสตร์",
 			"คณะมนุษยศาสตร์",
@@ -166,7 +166,7 @@
 	},
 	{
 		"question":"คณะวิทยาศาสตร์ มหาวิทยาลัยเกษตรศาสตร์ มีกี่ภาควิชา",
-		"img":"",
+		"img":"http://www.coop.ku.ac.th/x/www4/tour/images/kuphoto_film_03_13_jpg.jpg",
 		"choice":[
 			"11",
 			"12",
@@ -177,7 +177,7 @@
 	},
 	{
 		"question":"มหาวิทยาลัยเกษตรศาสตร์ วิทยาเขตบางเขน มีกี่คณะ",
-		"img":"",
+		"img":"http://www.kubim.bus.ku.ac.th/wp-content/uploads/2017/05/1367410241-DSC7668697-o.jpg",
 		"choice":[
 			"12",
 			"13",
@@ -188,7 +188,7 @@
 	},
 	{
 		"question":"มหาวิทยาลัยเกษตรศาสตร์ ไม่มีคณะใดต่อไปนี้",
-		"img":"",
+		"img":"http://www.kubim.bus.ku.ac.th/wp-content/uploads/2017/05/1367410241-DSC7668697-o.jpg",
 		"choice":[
 			"คณะเทคนิคการสัตวแพทย์",
 			"คณะบริหารธุรกิจ",
@@ -199,7 +199,7 @@
 	},
 	{
 		"question":"คณะวิทยาศาสตร์ ไม่มีภาควิชาใดต่อไปนี้",
-		"img":"",
+		"img":"http://www.kubim.bus.ku.ac.th/wp-content/uploads/2017/05/1367410241-DSC7668697-o.jpg",
 		"choice":[
 			"ภาควิชาเคมี",
 			"ภาควิชาวิทยาศาสตร์พื้นพิภพ",
@@ -210,7 +210,7 @@
 	},
 	{
 		"question":"คำใด ไม่มีอยู่ในสร้อยเกษตร",
-		"img":"",
+		"img":"http://www.godan.info/sites/default/files/logos/university_of_kasetsart_076b1883ba3afc4659aad2973c628bb7_0.gif",
 		"choice":[
 			"เขียว",
 			"เกษตร",
